@@ -1,0 +1,16 @@
+container
+{ 
+    font-size: large;
+    color: crimson;
+
+}
+.text-succes
+{
+    font-style: italic;
+    color: darkmagenta;
+}
+.form-control
+{
+    border: darkred;
+    color: darkseagreen;
+}

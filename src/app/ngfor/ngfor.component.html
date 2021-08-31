@@ -1,0 +1,20 @@
+<table class="table">
+    <thead>
+        <tr>
+            <th>Sr.No</th>
+            <th>Product Image</th>
+            <th>Product Name</th>
+            <th>Product ID</th>
+            <th>Product Price</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr *ngFor="let mypro of products; index as i">
+            <td>{{i+1}}</td>
+            <td><img src="{{mypro.proimg}}"width="70"alt=""></td>
+            <td>{{mypro.name}}</td>
+            <td>{{mypro.id}}</td>
+            <td>{{mypro.price}}</td>
+        </tr>
+    </tbody>
+</table>

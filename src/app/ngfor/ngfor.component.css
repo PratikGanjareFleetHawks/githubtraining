@@ -1,0 +1,37 @@
+.table
+{
+    width: 50%;
+    height: 50;
+    font-weight: 500%;
+}
+th
+{
+    color: darkturquoise;
+    border: darkviolet;
+    padding: 4%;
+}
+thead
+{
+    color: forestgreen;
+    padding: 4%;
+}
+tbody
+{
+    color: forestgreen;
+    padding: 4%;
+}
+tr
+{
+    color: rgb(65, 106, 107);
+    border: darkviolet;
+    padding: 4%;
+
+}
+td
+{
+    color: red;
+    border: darkviolet;
+    padding: 4%;
+
+
+}
